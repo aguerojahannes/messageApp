@@ -1,0 +1,32 @@
+.hidden {
+   opacity:0;
+}
+
+.bottom{
+   height: 15px;
+}
+
+  body {
+     background-image: url("http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/contemporary_china_2.png");
+     background-color: grey;
+     background-size: contain;
+ }
+
+.md-toolbar-tools {
+   background-color: grey;
+}
+
+#messages{
+   max-height: 500px;
+}
+
+
+/*
+ .inputdemoIcons .inputIconDemo {
+   min-height: 48px; }
+ .inputdemoIcons md-input-container:not(.md-input-invalid) > md-icon.email {
+   color: green; }
+ .inputdemoIcons md-input-container:not(.md-input-invalid) > md-icon.name {
+   color: black; }
+ .inputdemoIcons md-input-container.md-input-invalid > md-icon.email, .inputdemoIcons md-input-container.md-input-invalid > md-icon.name {
+   color: red; }*/
