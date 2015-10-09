@@ -24,7 +24,18 @@
 				 <!-- Use floating label instead of placeholder -->
 				 <label>Name</label>
 				 <md-icon md-svg-src="img/icons/ic_person_24px.svg" class="name"></md-icon>
-				 <input ng-model="vm.messages.name" type="text">
+				 <!-- <input ng-model="vm.messages.name" type="text"> -->
+				 <md-select ng-model="vm.test" >
+		 <md-option value="{{vm.group[0].name}}">
+		Pearl
+		 </md-option>
+		 <md-option value="{{vm.group[1].name}}">
+Yisel
+		</md-option>
+		<md-option value="{{vm.group[2].name}}">
+	  Ana
+		</md-option>
+	  </md-select>
 			  </md-input-container>
 			  <md-input-container class="md-icon-float" >
 				 <!-- Use floating label instead of placeholder -->
